@@ -7,7 +7,7 @@
 # default Modbus/TCP port is 502 so we prefix call with sudo
 # add "--host 0.0.0.0" to listen on all available IPv4 addresses of the host
 #
-#   sudo ./server.py --host 0.0.0.0
+#   sudo python main.py --host 0.0.0.0
 
 import argparse
 from pyModbusTCP.server import ModbusServer
